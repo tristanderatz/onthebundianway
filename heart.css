@@ -80,10 +80,10 @@ body {
 div#counter {
   font-weight: normal;
   letter-spacing:5px;
-  padding: 6px;
+  padding: 0px;
   font-size: 1.8em;
   font-family: 'Gill Sans';
-  width: 500px;
+  width: 100%;
   text-align: center;
   height: auto;
   color: #333;
