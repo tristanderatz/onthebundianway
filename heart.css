@@ -107,6 +107,8 @@ div#counter {
   display:block;
   margin:0px auto;
   vertical-align:middle;
+	animation: beat 1s infinite alternate;
+	transform-origin: center;
 }
 
 
