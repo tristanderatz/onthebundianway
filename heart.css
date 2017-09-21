@@ -94,7 +94,20 @@ body {
 } */
 
 
-
+div#counter {
+  font-weight: normal;
+  letter-spacing:5px;
+  padding: 6px;
+  font-size: 1.8em;
+  font-family: 'Gill Sans';
+  width: 500px;
+  text-align: center;
+  height: auto;
+  color: #333;
+  display:block;
+  margin:0px auto;
+  vertical-align:middle;
+}
 
 
 
