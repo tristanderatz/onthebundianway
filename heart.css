@@ -1,5 +1,5 @@
 /* just some  styling*/
-body { 
+/* body { 
   text-align: center;
 	width: 100%;
 	height: 100%;
@@ -7,21 +7,22 @@ body {
 
 }
 
-/* heart div class - in html i used just a simple html simbol entity for heart sign, you can use text or whatever u want*/
-
+ heart div class - in html i used just a simple html simbol entity for heart sign, you can use text or whatever u want*/
+/*
 .heart {
 	font-size: 150px;
 	color: #e00;
 	animation: beat 1s infinite alternate;
 	transform-origin: center;
 }
-
-/* Heart beat animation */
+/*
+/* Heart beat animation /*
 @keyframes beat{
 	to { transform: scale(2.4);
   }
 }
 
+/*
 /* we are using prefix free for this example
 
 for prefixed code it would look like this
