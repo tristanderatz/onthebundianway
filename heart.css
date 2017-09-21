@@ -14,9 +14,8 @@ div#counter {
   font-size: 1.8em;
   font-family: 'Gill Sans';
   width: 100%;
-	height: 100%;
   text-align: center;
-  height: auto;
+  height: 100%;
   color: #333;
   display:block;
   margin:0px auto;
