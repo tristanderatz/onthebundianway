@@ -27,9 +27,9 @@ div#counter {
 
 /* color movement body */
 body {
-  -webkit-animation: color-fade 10s infinite;
-  -moz-animation: color-fade 10s infinite;
-  animation: color-fade 10s infinite;
+  -webkit-animation: color-fade 60s infinite;
+  -moz-animation: color-fade 60s infinite;
+  animation: color-fade 60s infinite;
 }
 
 @-webkit-keyframes color-fade {
