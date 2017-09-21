@@ -20,7 +20,7 @@ padding: 200px 0;
   display:block;
   margin:0px auto;
   vertical-align:middle;
-	animation: beat 1s infinite alternate;
+	animation: beat 0.7s infinite alternate;
 	transform-origin: center;
 }
 
@@ -56,5 +56,15 @@ body {
   100% { background: #9a5342; }
 }
 
+.p {
+	animation: text-fade 60s infinite;
+}
 
+@keyframes text-fade {
+	 0% { background: #fffc0c; }
+  25% { background: #e46d00; }
+  50% { background: #9a5342; }
+  75% { background: #ff3506; }
+  100% { background: #fffc0c; }
+}
 
