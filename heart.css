@@ -18,10 +18,17 @@ div#counter {
   height: 100%;
   color: #333;
   display:block;
-  margin:0px auto;
+/*  margin:0px auto;*/
   vertical-align:middle;
 	animation: beat 1s infinite alternate;
 	transform-origin: center;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
 }
 
 
