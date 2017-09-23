@@ -7,7 +7,11 @@
   font-family: sans-serif;
   font-size: 30px;
   color: #1663e0;
-}
+-webkit-animation: color-fade 30s infinite;
+  -moz-animation: color-fade 30s infinite;
+  animation: color-fade 30s infinite;
+
+  }
 
 /*
 for text only, not div
@@ -70,9 +74,9 @@ body {
 
 /* text-fade style */
 @keyframes text-fade {
-   0% { background: #1663e0; }
-  25% { background: #ffffff; }
-  50% { background: #1663e0; }
-  75% { background: #ffffff; }
-  100% { background: #ce3749; }
+   0% { color: #1663e0; }
+  25% { color: #ffffff; }
+  50% { color: #1663e0; }
+  75% { color: #ffffff; }
+  100% { color: #ce3749; }
 }
