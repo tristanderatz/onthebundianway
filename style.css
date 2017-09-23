@@ -65,7 +65,7 @@ body {
 }
 
 /* Heart beat animation */
-@keyframes beat{
+@keyframes text-fade{
 	to { transform: scale(2.4);
   }
 }
