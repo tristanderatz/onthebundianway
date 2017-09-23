@@ -7,9 +7,14 @@
   font-family: sans-serif;
   font-size: 30px;
   color: #1663e0;
+   -webkit-animation: color-fade 30s infinite;
+  -moz-animation: color-fade 30s infinite;
+  animation: color-fade 30s infinite;
+
+
 }
 
-/* color movement body */
+/* color movement body aka color-fade */
 body {
   -webkit-animation: color-fade 60s infinite;
   -moz-animation: color-fade 60s infinite;
@@ -40,3 +45,19 @@ body {
   100% { background: #ce3749; }
 }
 
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(2.4);
+  }
+}
+
+
+
+/* text-fade style */
+@keyframes text-fade {
+   0% { background: #1663e0; }
+  25% { background: #ffffff; }
+  50% { background: #1663e0; }
+  75% { background: #ffffff; }
+  100% { background: #ce3749; }
+}
