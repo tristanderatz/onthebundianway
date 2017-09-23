@@ -7,10 +7,14 @@
   font-family: sans-serif;
   font-size: 30px;
   color: #1663e0;
-   -webkit-animation: color-fade 30s infinite;
+}
+
+/*
+for text only, not div
+  -webkit-animation: color-fade 30s infinite;
   -moz-animation: color-fade 30s infinite;
   animation: color-fade 30s infinite;
-}
+*/
 
 .counterfloat {
   position: auto;
@@ -20,9 +24,6 @@
   font-family: sans-serif;
   font-size: 30px;
   color: #ffffff;
-   -webkit-animation: color-fade 30s infinite;
-  -moz-animation: color-fade 30s infinite;
-  animation: color-fade 30s infinite;
 }
 
 
