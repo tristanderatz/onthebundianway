@@ -24,12 +24,13 @@ for text only, not div
 
 .counterfloat {
   position: auto;
-  width: auto;
   top: auto;
   text-align: center;
   font-family: sans-serif;
   font-size: 30px;
   color: #ffffff;
+  float: left;
+  width: 200px;
 }
 
 
