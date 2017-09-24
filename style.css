@@ -31,10 +31,8 @@ for text only, not div
   color: #ffffff;
   float: left;
   width: 200px;
-  -webkit-animation: text-fade 30s infinite;
-  -moz-animation: text-fade 30s infinite;
   animation: text-fade 30s infinite;
-  animation: counter-beat 0.5s infinite alternate;  
+  animation: counter-beat 1s infinite alternate;  
 }
 
 
