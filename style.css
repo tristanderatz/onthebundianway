@@ -31,8 +31,8 @@ for text only, not div
   color: #ffffff;
   float: left;
   width: 200px;
-  animation: text-fade 30s infinite;
-  animation: counter-beat 1s infinite alternate;  
+  animation: letter-fade 30s infinite;
+  animation: counter-beat 2s infinite alternate;  
 }
 
 
@@ -62,11 +62,11 @@ body {
 }
 
 @keyframes color-fade {
-   0% { background: #ce3749; }
-  25% { background: #cc4153; }
-  50% { background: #99417a; }
-  75% { background: #932433; }
-  100% { background: #ce3749; }
+   0% { background: #d8434f; }
+ 
+  50% { background: #8e1c25; }
+ 
+  100% { background: #d8434f; }
 }
 
 
@@ -79,7 +79,7 @@ body {
 
 
 /* text-fade style */
-@keyframes text-fade {
+@keyframes letter-fade {
    0% { color: #1663e0; }
   25% { color: #ffffff; }
   50% { color: #1663e0; }
