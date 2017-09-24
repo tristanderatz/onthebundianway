@@ -28,10 +28,9 @@ for text only, not div
   text-align: center;
   font-family: sans-serif;
   font-size: 30px;
-  color: #ffffff;
+  color: #8e1c25;
   float: left;
   width: 200px;
-  animation: letter-fade 30s infinite;
   animation: counter-beat 2s infinite alternate;  
 }
 
