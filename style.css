@@ -27,7 +27,7 @@ for text only, not div
   top: auto;
   text-align: center;
   font-family: sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   color: #8e1c25;
   float: left;
   width: 200px;
@@ -71,7 +71,7 @@ body {
 
 /* Heart beat animation */
 @keyframes counter-beat{
-	to { transform: scale(2.4);
+	to { transform: scale(3.6);
   }
 }
 
