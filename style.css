@@ -31,6 +31,7 @@ for text only, not div
   color: #8e1c25;
   float: left;
   width: 200px;
+  margin: 0px;
   animation: counter-beat 2s infinite alternate;  
 }
 
