@@ -1,40 +1,46 @@
-.counter {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 80px;
-  color: #1663e0;
--webkit-animation: text-fade 30s infinite;
-  -moz-animation: text-fade 30s infinite;
-  animation: text-fade 30s infinite;
-  animation: counter-beat 1s infinite alternate;
-
-
-  }
-
-/*
-for text only, not div
-  -webkit-animation: color-fade 30s infinite;
-  -moz-animation: color-fade 30s infinite;
-  animation: color-fade 30s infinite;
-*/
-
 .counterfloat {
-  position: auto;
-  top: auto;
   text-align: center;
-  font-family: sans-serif;
+  font-family: "palatino", serif;
   font-size: 100px;
+  font-weight: 600;
+  letter-spacing: -20px;
   color: #8e1c25;
   float: left;
+  margin-right: -50px;
+  margin-left: -50px;
+  margin-bottom: 0px;
   width: 200px;
-  margin: 0px;
-  animation: counter-beat 2s infinite alternate;  
+  animation: counter-beat 4s infinite alternate;  
 }
 
+.counterfloatalt {
+  text-align: center;
+  font-family: "palatino", serif;
+  font-size: 100px;
+  font-weight: 300;
+  letter-spacing: -20px;
+  color: #d8434f;
+  float: left;
+  margin-right: -50px;
+  margin-left: -50px;
+  margin-top: -60px;
+  width: 200px;
+  animation: counterfloatalt 4s infinite alternate;
+  animation-delay: 3s;
+}
+
+/* wrapper for divs */
+.toptobottom {
+    width: 100%;
+    position: relative;
+    animation: toptobottom 60s infinite;
+}
+
+@keyframes toptobottom {
+  0% { top: -50px; }
+
+  100% { top: 600px;}
+}
 
 
 
@@ -71,11 +77,22 @@ body {
 
 
 /* Heart beat animation */
-@keyframes counter-beat{
-	to { transform: scale(0.25);
+@keyframes counter-beat {
+	to { transform: scale(0.25, 0.35);
   }
 }
 
+
+
+
+
+@keyframes counterfloatalt {
+  0% { top: 0px; }
+
+  50% { top: 800px; }
+
+  100% { top: 1000px; transform: scale(0.25); }
+}
 
 
 /* text-fade style */
@@ -86,3 +103,4 @@ body {
   75% { color: #ffffff; }
   100% { color: #ce3749; }
 }
+
