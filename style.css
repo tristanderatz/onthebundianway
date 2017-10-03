@@ -1,3 +1,21 @@
+.counterfloataltblack {
+  opacity: 0.7;
+  text-align: center;
+  font-family: "palatino", serif;
+  font-size: 100px;
+  font-weight: 300;
+  letter-spacing: -20px;
+  color: #000000;
+  float: left;
+  margin-right: -50px;
+  margin-left: -50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  width: 200px;
+ /* animation: counterfloatalt 4s infinite alternate; 
+  animation-delay: 3s; */
+}
+
 .counterfloat {
   text-align: center;
   font-family: "palatino", serif;
@@ -8,36 +26,54 @@
   float: left;
   margin-right: -50px;
   margin-left: -50px;
+  margin-top: -80px;
   margin-bottom: 0px;
   width: 200px;
-  animation: counter-beat 4s infinite alternate;  
+  /* animation: counter-beat 4s infinite alternate;  */
 }
 
 .counterfloatalt {
+  opacity: 0.7;
   text-align: center;
   font-family: "palatino", serif;
   font-size: 100px;
   font-weight: 300;
   letter-spacing: -20px;
-  color: #d8434f;
+  color: #b7cace;
   float: left;
   margin-right: -50px;
   margin-left: -50px;
-  margin-top: -60px;
+  margin-top: -70px;
+  margin-bottom: 0px;
   width: 200px;
-  animation: counterfloatalt 4s infinite alternate;
-  animation-delay: 3s;
+ /* animation: counterfloatalt 4s infinite alternate; 
+  animation-delay: 3s; */
+}
+
+
+
+.blackcounter {
+  position: fixed;
+  width: 500px;
+  height: 100px;
+  z-index: 1;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "palatino", serif;
+  font-size: 100px;
+  font-weight: 300;
+  text-align: center;
 }
 
 /* wrapper for divs */
 .toptobottom {
     width: 100%;
     position: relative;
-    animation: toptobottom 60s infinite;
+   /* animation: toptobottom 60s infinite; */
 }
 
 @keyframes toptobottom {
-  0% { top: -50px; }
+  0% { top: -600px; }
 
   100% { top: 600px;}
 }
@@ -48,7 +84,7 @@
 body {
   -webkit-animation: color-fade 60s infinite;
   -moz-animation: color-fade 60s infinite;
-  animation: color-fade 60s infinite;
+  animation: color-fade 3s infinite;
 }
 
 @-webkit-keyframes color-fade {
@@ -68,11 +104,17 @@ body {
 }
 
 @keyframes color-fade {
-   0% { background: #d8434f; }
+   0% { background: #e84f29; }
  
-  50% { background: #8e1c25; }
+  50% { background: #c46136; } 
  
-  100% { background: #d8434f; }
+  60% { background: #e84f29; }
+
+  70% { background: #c46136; } 
+
+  75% { background: #e84f29; }
+ 
+  100% { background: #e84f29; }
 }
 
 
@@ -82,7 +124,7 @@ body {
   }
 }
 
-
+/*#8e1c25 d8434f */
 
 
 
