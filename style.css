@@ -99,7 +99,7 @@
     height: 200px;
     position: relative;
     background-color: #000000;
-    color: #ffffff;
+    color: #b71d1d;
     margin-top: px;
     text-align: center;
     font-family: "palatino", serif;
@@ -120,7 +120,7 @@
 body {
   -webkit-animation: color-fade 60s infinite;
   -moz-animation: color-fade 60s infinite;
-  animation: color-fade 100s infinite;
+  animation: color-fade 200s infinite;
 }
 
 @-webkit-keyframes color-fade {
@@ -142,15 +142,18 @@ body {
 @keyframes color-fade {
    0% { background: #e84f29; }
  
+  10% { background: #3e78d6; }  
   25% { background: #3e78d6; }  
+  45% { background: #3e78d6; }  
 
-  50% { background: #c46136; } 
  
-  60% { background: #e84f29; }
+  50% { background: #e84f29; }
 
   70% { background: #c46136; } 
 
   75% { background: #e84f29; }
+
+  90% { background: #53e0d2;; }
  
   100% { background: #e84f29; }
 }
