@@ -1,0 +1,20 @@
+body {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+    font-family: fantasy;
+    background-color: rgba(225, 74, 167, 0.89);
+}
+
+
+
+h1 {
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+  font-family: fantasy;
+  outline-style: dashed;
+}
+
+
